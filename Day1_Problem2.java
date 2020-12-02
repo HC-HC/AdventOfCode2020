@@ -11,7 +11,9 @@ class Main {
     System.out.println(sumTo2020(lst));
     sc.close();
   }
-
+  
+  //Find three numbers that sum to 2020
+  //Return their product
   static int sumTo2020(List<Integer> lst) {
     int len = lst.size();
     for (int i = 0; i < len - 1; i++) {

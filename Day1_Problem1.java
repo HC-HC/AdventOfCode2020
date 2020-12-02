@@ -10,7 +10,9 @@ class Main {
     System.out.println(sumTo2020(set));
     sc.close();
   }
-
+  
+  //Find two numbers that sum to 2020
+  //Return their product
   static int sumTo2020(HashSet<Integer> set) {
     HashMap<Integer, Integer> map = new HashMap<>();
     for (Integer i : set) {
